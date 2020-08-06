@@ -58,3 +58,19 @@ p {
   position: absolute;
   right: 30%;
 }
+
+/* Press */
+#press {
+  background-color: #d9efff;
+  padding-bottom: 2%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 0px;
+}
+
+/* Features */
+#features {
+  z-index: 1;
+  position: relative;
+}
