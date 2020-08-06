@@ -74,3 +74,17 @@ p {
   z-index: 1;
   position: relative;
 }
+.feature-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 5%;
+}
+.icon {
+  color: #4e72f0;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #2b57f8;
+}
