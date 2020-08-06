@@ -88,3 +88,17 @@ p {
 .icon:hover {
   color: #2b57f8;
 }
+/* Testimonials */
+#testimonials {
+  background-color: #4e72f0;
+}
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+.testimonial-text {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
