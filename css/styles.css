@@ -118,3 +118,12 @@ p {
   font-weight: 700;
   line-height: 1.5;
 }
+
+/* Footer */
+.social {
+  padding: 2% 3%;
+  color: black;
+}
+.social:hover {
+  color: #2b57f8;
+}
