@@ -24,7 +24,7 @@
     <section class="colored-section" id="title">
       <div class="container-fluid">
         <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
           <a class="navbar-brand" href="#">Vancity Showcase</a>
           <button
             class="navbar-toggler"
@@ -54,7 +54,7 @@
         </nav>
 
         <!-- Title Header -->
-        <div class="row scroll-reveal">
+        <div class="row scroll-reveal" id="header">
           <div class="col-lg-6">
             <h1 class="big-heading">
               Get the latest scoop in beautiful Vancouver
@@ -196,7 +196,8 @@
                 <p>View event details, including maps and directions</p>
                 <button
                   type="button"
-                  class="btn btn-outline-dark btn-lg btn-block"
+                  class="btn btn-outline-secondary btn-lg btn-block"
+                  id="button-free"
                 >
                   Get Started
                 </button>
@@ -216,7 +217,11 @@
                 </p>
                 <p>Earlybird access to events</p>
                 <p>Unlimited usage, all you need is your phone</p>
-                <button type="button" class="btn btn-dark btn-lg btn-block">
+                <button
+                  type="button"
+                  class="btn btn-lg btn-block"
+                  id="button-vip"
+                >
                   Get Started
                 </button>
               </div>
@@ -244,13 +249,11 @@
     <!-- Footer -->
 
     <footer class="white-section" id="footer">
-      <div class="container-fluid">
-        <a href=""><i class="social fab fa-twitter"></i></a>
-        <a href=""><i class="social fab fa-facebook-f"></i></a>
-        <a href=""><i class="social fab fa-instagram"></i></a>
-        <a href=""><i class="social fas fa-envelope"></i></a>
-        <p>© Copyright 2018 Vancity Showcase</p>
-      </div>
+      <a href=""><i class="social fab fa-twitter"></i></a>
+      <a href=""><i class="social fab fa-facebook-f"></i></a>
+      <a href=""><i class="social fab fa-instagram"></i></a>
+      <a href=""><i class="social fas fa-envelope"></i></a>
+      <p>© Copyright 2018 Vancity Showcase</p>
     </footer>
   </body>
   <script

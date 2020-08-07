@@ -30,6 +30,8 @@ p {
 /* Navigation Bar */
 .navbar {
   padding: 0 0 4.5rem;
+  padding: 1% 15%;
+  background-color: #4e72f0;
 }
 .navbar-brand {
   font-size: 2rem;
@@ -40,6 +42,9 @@ p {
 .nav-link {
   font-size: 1.2rem;
   font-weight: 200;
+}
+.nav-background {
+  background-color: ;
 }
 
 /* Download Buttons */
@@ -53,6 +58,9 @@ p {
   text-align: left;
 }
 /* Header Image */
+#header {
+  padding-top: 10%;
+}
 .header-image {
   width: 60%;
   transform: rotate(25deg);
@@ -119,6 +127,17 @@ p {
   line-height: 1.5;
 }
 
+#button-free:hover {
+  background-color: #7c97f6;
+  border-color: #7c97f6;
+}
+#button-vip {
+  background-color: #4e72f0;
+  color: #fff;
+}
+#button-vip:hover {
+  background-color: #2b57f8;
+}
 /* Footer */
 .social {
   padding: 2% 3%;
