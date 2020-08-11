@@ -123,9 +123,6 @@ p {
   font-weight: 700;
   line-height: 1.5;
 }
-.card {
-  height: 200px;
-}
 
 #button-free:hover {
   background-color: #7c97f6;
