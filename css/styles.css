@@ -123,6 +123,9 @@ p {
   font-weight: 700;
   line-height: 1.5;
 }
+.card {
+  height: 200px;
+}
 
 #button-free:hover {
   background-color: #7c97f6;
@@ -142,4 +145,23 @@ p {
 }
 .social:hover {
   color: #2b57f8;
+}
+@media (max-width: 1028px) {
+  .header-image {
+    position: static;
+    transform: rotate(0deg);
+    width: 80%;
+  }
+  #header {
+    text-align: center;
+  }
+  #title {
+    text-align: center;
+  }
+  .container-fluid {
+    padding: 5% 10%;
+  }
+  .navbar {
+    padding: 1% 10%;
+  }
 }
