@@ -143,6 +143,9 @@ p {
 .social:hover {
   color: #2b57f8;
 }
+#footer {
+  font-size: 1.2rem;
+}
 @media (max-width: 1028px) {
   .header-image {
     position: static;
@@ -156,9 +159,47 @@ p {
     text-align: center;
   }
   .container-fluid {
-    padding: 5% 10%;
+    padding: 10% 5%;
+  }
+  .press-logo {
+    width: 30%;
+    margin: 20px 25px 0px;
+  }
+  .feature-box {
+    padding: 5%;
   }
   .navbar {
     padding: 1% 10%;
+  }
+  #footer {
+    font-size: 1.5rem;
+  }
+  /* FONT SIZE FIXES */
+  .big-heading {
+    font-size: 4rem;
+  }
+  .navbar-brand {
+    font-size: 2.5rem;
+  }
+  .nav-link {
+    font-size: 1.5rem;
+  }
+  .feature-title {
+    font-size: 2.5rem;
+  }
+  .testimonial-text {
+    font-size: 3rem;
+  }
+  .price-text {
+    font-size: 3rem;
+  }
+  .section-heading {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .download-button {
+    font-size: 1.5rem;
   }
 }
